@@ -291,21 +291,20 @@ p {
   margin-top: 2.5rem;
   text-align: justify;
 }
-
-
-#events {
-  position: relative;
-  background-color: white;
-  border-radius: 1.5rem;
-}
 .events-heading {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 300;
   color: black;
   text-transform: uppercase;
   text-align: center;
   margin: 7rem 0 1rem 0;
   padding-top: 2rem;
+}
+
+#events {
+  position: relative;
+  background-color: white;
+  border-radius: 1.5rem;
 }
 
 .events-container {
@@ -368,8 +367,8 @@ footer {
 }
 .social-media p {
   margin-bottom: 0.5rem;
-  font-size: 1rem;
-  font-weight: 300;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 .social-media ul {
   display: flex;
@@ -467,8 +466,6 @@ footer p {
 }
 
 @media only screen and (min-width: 992px) {
- 
-  }
   .hero-bg p {
     margin: 0 0 3em;
   }
@@ -562,7 +559,7 @@ footer p {
 
   .slide {
     position: relative;
-    height: 80%;
+    height: 100%;
     flex: 1;
   }
 
