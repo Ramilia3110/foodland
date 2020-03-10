@@ -275,7 +275,7 @@ p {
 .about-content {
   text-align: center;
   padding: 5rem 2rem 5rem 2rem;
-  margin: 1rem 0 7rem 0;
+  margin: 1rem 0 9rem 0;
 }
 
 .about-content h3 {
@@ -290,6 +290,14 @@ p {
 .about-content p {
   margin-top: 2.5rem;
   text-align: justify;
+}
+.events-heading {
+  font-size: 2rem;
+  font-weight: 300;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 7rem 0 1rem 0;
 }
 
 #events {
@@ -325,12 +333,18 @@ p {
   height: auto;
   text-align: center;
   background: rgba(255, 255, 255, 0.6);
-  top: 60%;
+  top: 50%;
+  padding-bottom: 1rem;
 }
 .slide-content h3 {
-  font-size: 2.5rem;
+  font-size: 2.1rem;
   font-weight: 600;
   margin-bottom: 1rem;
+}
+.slide-content h6 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
 }
 
 .slide-content p {
@@ -377,6 +391,10 @@ footer p {
     left: 0;
     object-fit: cover;
     pointer-events: none;
+  }
+
+  .events-heading {
+    font-size: 3rem;
   }
 }
 
