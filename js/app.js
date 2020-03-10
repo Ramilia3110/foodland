@@ -1,17 +1,10 @@
-const hamburger = document.querySelector(".hamburger");
-const navLinks = document.querySelector(".nav-links");
-const links = document.querySelectorAll(".nav-link");
+const hamburger = document.getElementsByClassName("hamburger")[0];
+const navbarLinks = document.getElementsByClassName("navbar-links")[0];
 
 hamburger.addEventListener("click", () => {
-  navLinks.classList.toggle("open");
-  links.forEach(link => {
-    link.classList.toggle("fade");
-  });
+  navbarLinks.classList.toggle("active");
 });
 
-links.addEventListener("click", () => {
-  links.forEach(link => {
-    link.classList.toggle("fade");
-  });
-  navLinks.classList.toggle("open");
+navbarLinks.addEventListener("click", () => {
+  navbarLinks.classList.toggle("active");
 });
