@@ -20,6 +20,7 @@ nav {
   height: 10vh;
   padding-bottom: 1em;
   position: relative;
+  background-color: #060c21;
 }
 .hamburger {
   position: absolute;
@@ -50,7 +51,7 @@ nav {
   font-size: 1.5rem;
   font-weight: bold;
   transition: all 1s ease-out;
-  clip-path: circle(40px at 90% -10%);
+  clip-path: circle(100px at 90% -10%);
   -webkit-clip-path: circle(100px at 90% -10%);
   pointer-events: none;
   z-index: 1;
@@ -283,6 +284,7 @@ p {
 #events {
   position: relative;
   background-color: #121933;
+  height: 100vh;
 }
 
 .events-container {
@@ -320,14 +322,26 @@ p {
   background: rgba(0, 0, 0, 0.2);
 }
 
-@media only screen and (min-width: 600px) {
+footer {
+  margin-top: 5rem;
+  position: relative;
+}
+
+footer p {
+  padding: 3rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: white;
+}
+
+@media only screen and (min-width: 768px) {
   .blog {
     width: 65%;
     margin: 0 auto;
   }
 }
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 992px) {
   .nav {
     height: 10vh;
     position: sticky;
@@ -457,7 +471,7 @@ p {
   }
 }
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1200px) {
   section {
     margin: 0 4em;
   }
